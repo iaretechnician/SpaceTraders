@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7167447a4bff1de43aa1915fa0092c31, type: 3}
+  m_Name: GunboatLaser
+  m_EditorClassIdentifier: 
+  Type: 0
+  Range: 1000
+  Cost: 12200
+  Class: 3
+  Description: Large pulsed laser cannon developed for use on corvettes and larger
+    vessels, usually found in their turrets.
+  ReloadTime: 0.45
+  ProjectileSpeed: 750
+  Damage: 55
+  Projectile: {fileID: 1371228841498320, guid: 699c0c8f663cd034993a501c35e5c3b5, type: 3}
+  EnergyDrain: 65

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dfa4c54a92878b4b8f1ef42bc682c19, type: 3}
+  m_Name: Friendly
+  m_EditorClassIdentifier: 
+  Friendly:
+  - {fileID: 11400000, guid: 423fb117ef4ee1443a9c490ffba66937, type: 2}
+  Hostile:
+  - {fileID: 11400000, guid: f535fa764b31394439528de22c3743fa, type: 2}
+  Loadouts:
+  - {fileID: 11400000, guid: 3dd6b508ba09c884f8f36ceacb2ae858, type: 2}
+  - {fileID: 11400000, guid: 4f278c65405793d49af52597170805d8, type: 2}
+  - {fileID: 11400000, guid: 5aee1c80b2e8ddf45898a2c2e7e4cc1d, type: 2}
+  - {fileID: 11400000, guid: 3dd6b508ba09c884f8f36ceacb2ae858, type: 2}
+  - {fileID: 11400000, guid: 165c062b2316e6940a63ba783589ece4, type: 2}
+  Stations:
+  - {fileID: 11400000, guid: 871c8d60833552e448069ded6efe0993, type: 2}
+  - {fileID: 11400000, guid: ddf0e4e9dee168d4981873a7d85410d7, type: 2}
+  - {fileID: 11400000, guid: 95d115d37e6938a43b2111ad4facff61, type: 2}

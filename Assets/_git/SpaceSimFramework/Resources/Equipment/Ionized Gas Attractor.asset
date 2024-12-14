@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6706483140f2e3745bc1c5e899f13bcc, type: 3}
+  m_Name: Ionized Gas Attractor
+  m_EditorClassIdentifier: 
+  Description: Allows gas mining in nebulae which offer mineable resources by attracting
+    small particles.
+  isActivateable: 0
+  isSingleUse: 0
+  ItemCost: 6900
+  AttractorPrefab: {fileID: 1372088409141684, guid: 40497158410cbc243898485287eb7032,
+    type: 3}

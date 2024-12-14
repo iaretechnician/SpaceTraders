@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2589b944f12e0d944b0c6a60bb16b883, type: 3}
+  m_Name: UIElements
+  m_EditorClassIdentifier: 
+  FlashingText: {fileID: 1428229945818634, guid: 9249a06324636264585f94d71b098f06,
+    type: 3}
+  ScrollMenu: {fileID: 1576432092069116, guid: 1e328cbd29c3a0b4f9f81b5e988d5cb4, type: 3}
+  ScrollText: {fileID: 1878887763179204, guid: 4dcf4a6338dfbdd4188db69a3916d201, type: 3}
+  SimpleMenu: {fileID: 1722436466579728, guid: a6b96fa88fca3dd46a9a532a6aef8883, type: 3}
+  SectorMap: {fileID: 1413673857504850, guid: 434d27c5caad14944bc7b5d57650323e, type: 3}
+  UniverseMap: {fileID: 1017573914725904, guid: d8a5658be1e369b498132352eea44162,
+    type: 3}
+  TargetMenu: {fileID: 1004687748163282, guid: a7522bc004fdaed4cbcf5fb29c9f3d19, type: 3}
+  StationMainMenu: {fileID: 1763179740982394, guid: b186aced780ac044b8d4fc8313da74e5,
+    type: 3}
+  StationTradeMenu: {fileID: 1923288828051482, guid: 93b731d1f97694d499b681491bab6f8f,
+    type: 3}
+  StationEquipmentMenu: {fileID: 1884669370518760, guid: e20fdf07c61d85f4ba84b6f028b85295,
+    type: 3}
+  StationDealershipMenu: {fileID: 1343169170857012, guid: bbc28816b6aef734e9a39397af7b08e3,
+    type: 3}
+  SliderDialog: {fileID: 1793231977793546, guid: f00a46ee24498674eae174fd7504f538,
+    type: 3}
+  InputDialog: {fileID: 1214034652192706, guid: 0cf1e245eb38df44dbf5d3d9b573a89b,
+    type: 3}
+  ConfirmDialog: {fileID: 1659994528190304, guid: 88c3a523dcb368041b1c759cd2211de1,
+    type: 3}
+  ClickableText: {fileID: 1707119826570914, guid: 9fc069651904c9242944e606e9ce2099,
+    type: 3}
+  ClickableTextChoice: {fileID: 1000237440328792, guid: 523b9543dc5878b419f7203b8b14c154,
+    type: 3}
+  ClickableImageText: {fileID: 1878793181697928, guid: 09f7d09afe2f7f74fad0d75d29cd876e,
+    type: 3}
+  TextPanel: {fileID: 1373764149674558, guid: e9628f4549f1a9447b7775d4c12ccee1, type: 3}
+  TwoTextPanel: {fileID: 1807201102728888, guid: 0a4d36b4b03f8f242b2105352e569013,
+    type: 3}

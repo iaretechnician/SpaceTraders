@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f76199d83ab73e94b8d2277661d19879, type: 3}
+  m_Name: Commodities
+  m_EditorClassIdentifier: 
+  CommodityTypes:
+  - Name: Firearms
+    MinPrice: 56
+    MaxPrice: 90
+  - Name: Food
+    MinPrice: 10
+    MaxPrice: 24
+  - Name: Consumer Goods
+    MinPrice: 25
+    MaxPrice: 46
+  - Name: Electronics
+    MinPrice: 35
+    MaxPrice: 110
+  - Name: Computer Components
+    MinPrice: 80
+    MaxPrice: 178
+  - Name: Ore
+    MinPrice: 12
+    MaxPrice: 46
+  - Name: Alloys
+    MinPrice: 76
+    MaxPrice: 140
+  - Name: Fuel
+    MinPrice: 80
+    MaxPrice: 130
+  - Name: Gold
+    MinPrice: 65
+    MaxPrice: 97
+  - Name: Water
+    MinPrice: 8
+    MaxPrice: 20

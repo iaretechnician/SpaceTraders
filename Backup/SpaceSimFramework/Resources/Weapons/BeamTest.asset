@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748a4e1130284264caaee9f220f7c5af, type: 3}
+  m_Name: BeamTest
+  m_EditorClassIdentifier: 
+  Type: 1
+  Range: 650
+  Cost: 999
+  Class: 1
+  Description: Beam weapon test with infinite speed.
+  EnergyDrainPerSecond: 100
+  DPS: 100
+  BeamPrefab: {fileID: 1113749292656076, guid: 211570f170368e94482a0e900ed87358, type: 3}

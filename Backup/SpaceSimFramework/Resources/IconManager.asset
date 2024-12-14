@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce9d7d4c3ce8ca1498de0397a5199d49, type: 3}
+  m_Name: IconManager
+  m_EditorClassIdentifier: 
+  Placeholder: {fileID: 21300000, guid: 9dc0af3ce3903dd4f83182b23edd9202, type: 3}
+  Wares:
+  - name: Firearms
+    icon: {fileID: 21300000, guid: 957a971dbc1c9244ab023f428ea9e293, type: 3}
+  - name: Food
+    icon: {fileID: 21300000, guid: 128942ca6fd612045a6637b5d1024ce5, type: 3}
+  - name: Consumer Goods
+    icon: {fileID: 21300000, guid: d93dbcff2f0004d4c852e0be4c0c21a5, type: 3}
+  - name: Electronics
+    icon: {fileID: 21300000, guid: 53edd8baaeb1d074f97d3ec75a43cc30, type: 3}
+  - name: Computer Components
+    icon: {fileID: 21300000, guid: dfc4392de0de53b45b9e51a9b7239e6c, type: 3}
+  - name: Ore
+    icon: {fileID: 21300000, guid: 53fcc42797a10794693630502e5c28b2, type: 3}
+  - name: Alloys
+    icon: {fileID: 21300000, guid: 069ed28dc5cc02146bbbe386b0b8958b, type: 3}
+  - name: Fuel
+    icon: {fileID: 21300000, guid: e19076f9646e0a14792deb3dffeefc81, type: 3}
+  - name: Gold
+    icon: {fileID: 21300000, guid: fd9ebdd9214067f4bac23dd0ec22533d, type: 3}
+  - name: Water
+    icon: {fileID: 21300000, guid: e94caf90b39c23241a1dcb1c3c948724, type: 3}
+  Equipment:
+  - name: Applique Armor Mk 1
+    icon: {fileID: 21300000, guid: 5269ae14e116d7b408d0a22f4d8626fc, type: 3}
+  - name: Applique Armor Mk 2
+    icon: {fileID: 21300000, guid: 5269ae14e116d7b408d0a22f4d8626fc, type: 3}
+  - name: Energy Capacity Overload Mk1
+    icon: {fileID: 21300000, guid: ebcc6a43e9c1d8e4f8230c420775f60d, type: 3}
+  - name: Energy Regen Override Mk1
+    icon: {fileID: 21300000, guid: dcf4f1371cd7b7c458d20b028790d143, type: 3}
+  Ships:
+  - name: BigShip
+    icon: {fileID: 21300000, guid: 17e84c19a250ed64c8d6e15fbfc9c1c1, type: 3}
+  - name: Fighter
+    icon: {fileID: 21300000, guid: 1f3762b89c648a143abce130eda317a3, type: 3}
+  - name: Freighter
+    icon: {fileID: 21300000, guid: 09481f75214eb4c418c1d9ba07534c4c, type: 3}
+  - name: Rowland-Vonnis K3 Ambassador
+    icon: {fileID: 21300000, guid: feeca85f1b1a38c4fbf1e86ef4256fdc, type: 3}
+  - name: Rowland-Vonnis K1 Consul
+    icon: {fileID: 21300000, guid: 57bdf47a5cc177e4cac9cf48dea285d6, type: 3}
+  - name: Rowland-Vonnis K2 Dictator
+    icon: {fileID: 21300000, guid: c04a0a1fc3aed8645aaa60b049c749a3, type: 3}
+  - name: AZ11 Altair
+    icon: {fileID: 21300000, guid: 00d107cf9e168f04d8cccfc696fea0a6, type: 3}
+  - name: AZ15 Alcyone
+    icon: {fileID: 21300000, guid: 3a44ed3f024426b43a1900e0097b97ea, type: 3}
+  - name: T-12 Wolfhound
+    icon: {fileID: 21300000, guid: 3844258d7112b984a83b4e6ecca36dff, type: 3}
+  - name: Prometheus
+    icon: {fileID: 21300000, guid: 19107557f4a39a248ab8e20bf5ca5e8d, type: 3}
+  Missions:
+  - name: Assassinate
+    icon: {fileID: 21300000, guid: 5f05f82bd45cbb444901efc15264d779, type: 3}
+  - name: CargoDelivery
+    icon: {fileID: 21300000, guid: dd720bb010d423d45bd770a73e85b86b, type: 3}
+  - name: Patrol
+    icon: {fileID: 21300000, guid: 598c2c2ceca4e0c4c84b4188e22e94ea, type: 3}
+  - name: Courier
+    icon: {fileID: 21300000, guid: eb1cf6ea72f949c4caf029195964a453, type: 3}
+  Weapons:
+  - {fileID: 21300000, guid: 537d8667d74bf9446903190c8b6a59d2, type: 3}
+  - {fileID: 21300000, guid: 6081c50b7fb33204ba93f5da014557af, type: 3}
+  - {fileID: 21300000, guid: 89283c9c13d8b814191a698a7a234023, type: 3}
+  MarkerIcons:
+  - name: Station
+    icon: {fileID: 21300000, guid: 69c8a6b24b6f10d4b94743faa32af579, type: 3}
+  - name: Jumpgate
+    icon: {fileID: 21300000, guid: 09573148ef2b65543a1aad48f189348d, type: 3}

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 283ca01ba76367e48b8d82b1e8eae1df, type: 3}
+  m_Name: OutpostNeutral
+  m_EditorClassIdentifier: 
+  ModelName: Outpost
+  faction: {fileID: 11400000, guid: c1d160f54095a4148a3e7f575ce2156b, type: 2}
+  EquipmentForSale:
+  - {fileID: 11400000, guid: f9b2d4e99c771914cb63f70f50d6f51f, type: 2}
+  - {fileID: 11400000, guid: 44afcb062fefc3c4299a5487aa9d7a0d, type: 2}
+  WeaponsForSale:
+  - {fileID: 11400000, guid: c3e0827be856cf941b7ef89fb5c3feb5, type: 2}
+  - {fileID: 11400000, guid: f7ff34941d67a13499f01e35fdc558e7, type: 2}
+  - {fileID: 11400000, guid: b41fe707fd4cf604db4fec0c5ea3ae4d, type: 2}
+  HasCargoDealer: 1
+  ShipsForSale:
+  - {fileID: 1140025910357742, guid: 118efdd877e08f94db8b8ba4780bf098, type: 3}
+  - {fileID: 1838925791102124, guid: 2aa80551dcfc7ec40b075580d0270a33, type: 3}
+  - {fileID: 1198584383644126, guid: ba32e877ce98b994e98d3d6a2cee99fb, type: 3}

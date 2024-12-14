@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13ce0c693cc5b8c49b5736aa1aeb1b17, type: 3}
+  m_Name: Fighter
+  m_EditorClassIdentifier: 
+  ModelName: Fighter
+  ExternalDocking: 0
+  CameraOffset: 12
+  Class: 1
+  Cost: 9120
+  MaxArmor: 250
+  GeneratorPower: 500
+  GeneratorRegen: 100
+  CargoSize: 30
+  LinearForce: {x: 50, y: 50, z: 200}
+  AngularForce: {x: 75, y: 75, z: 25}
+  EquipmentSlots: 1

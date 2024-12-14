@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c8b63e9db431a644ac880ba49a3e117, type: 3}
+  m_Name: ObjectFactory
+  m_EditorClassIdentifier: 
+  WaypointPrefab: {fileID: 1770162269849122, guid: b5eb34050389758408356929b23220c3,
+    type: 3}
+  JumpGatePrefab: {fileID: 1589194443130430, guid: eb0b1b04324cc364d8d33fc713da9f01,
+    type: 3}
+  AsteroidFieldPrefab: {fileID: 1487632604110242, guid: 10c7301dfe1e94d41ad2059639e36c74,
+    type: 3}
+  NebulaPrefab: {fileID: 5099892991003674560, guid: da230f53ddc0c4442b025b9f5764e2f0,
+    type: 3}
+  Factions:
+  - {fileID: 11400000, guid: c1d160f54095a4148a3e7f575ce2156b, type: 2}
+  - {fileID: 11400000, guid: f535fa764b31394439528de22c3743fa, type: 2}
+  - {fileID: 11400000, guid: 7eadc4ff619effd46874c98a807ac9cd, type: 2}
+  - {fileID: 11400000, guid: 423fb117ef4ee1443a9c490ffba66937, type: 2}
+  Stations:
+  - {fileID: 1279072126934206, guid: 1db13bbcb843e42439eff11a24b3c031, type: 3}
+  - {fileID: 1950475860237318, guid: d747327d638e49b4a8953caa8d48da06, type: 3}
+  - {fileID: 1373860630362290, guid: 3926cfc99e22f044ba734bd5b257cfed, type: 3}
+  Ships:
+  - {fileID: 1140025910357742, guid: 118efdd877e08f94db8b8ba4780bf098, type: 3}
+  - {fileID: 1641274957210480, guid: 7fd026c06bf759247b05b4a2fcf15185, type: 3}
+  - {fileID: 1713973689529458, guid: 282e78b37cbcbe64b8dce1a018379781, type: 3}
+  - {fileID: 1349695811200758, guid: 4414c19b11fa5cc46b13707cae9015be, type: 3}
+  - {fileID: 1198584383644126, guid: ba32e877ce98b994e98d3d6a2cee99fb, type: 3}
+  - {fileID: 1336137988947426, guid: e57242d60c6b9f64e975281eace8243b, type: 3}
+  - {fileID: 1868469969014334, guid: 77b0a22549e6aa84082aaaa40ebb8d69, type: 3}
+  - {fileID: 1838925791102124, guid: 2aa80551dcfc7ec40b075580d0270a33, type: 3}
+  - {fileID: 1270961966919656, guid: 5b0101bd8248d434c9c5dcdbad76493a, type: 3}
+  - {fileID: 7233013693178732052, guid: 7a049b6d778739a4ca440bc2740d4f97, type: 3}
+  - {fileID: 7538980383804514166, guid: c34e74ec860603d47a2fa4eb482fd4c0, type: 3}
+  Weapons:
+  - {fileID: 11400000, guid: c3e0827be856cf941b7ef89fb5c3feb5, type: 2}
+  - {fileID: 11400000, guid: f7ff34941d67a13499f01e35fdc558e7, type: 2}
+  - {fileID: 11400000, guid: 081fad2815792734bb1726c316ff59f0, type: 2}
+  - {fileID: 11400000, guid: 45209d1e8c708a34d902b94cc9a71f70, type: 2}
+  - {fileID: 11400000, guid: b41fe707fd4cf604db4fec0c5ea3ae4d, type: 2}
+  - {fileID: 11400000, guid: ed19dde43cf06ca4bb0742f2b335080e, type: 2}
+  Equipment:
+  - {fileID: 11400000, guid: f9b2d4e99c771914cb63f70f50d6f51f, type: 2}
+  - {fileID: 11400000, guid: 869dbe9d23a7b094285c95a75338560c, type: 2}
+  - {fileID: 11400000, guid: 6053ceb563533594182bb04ffac55d3e, type: 2}
+  - {fileID: 11400000, guid: 770a74177d461c943a92e5447c1e0c77, type: 2}
+  - {fileID: 11400000, guid: 44afcb062fefc3c4299a5487aa9d7a0d, type: 2}
+  - {fileID: 11400000, guid: 5c30aa6781b94bb4faf771b58a39f61d, type: 2}
+  Wrecks:
+  - {fileID: 6349685277247615693, guid: eb50c5e607096b8468263a86ec529812, type: 3}
+  - {fileID: 494289019582746051, guid: 4ae834c7304a4bd46b1531e285a33e9b, type: 3}
+  - {fileID: 1258780468335876230, guid: 54c0f5438345a6f449f62192fc137805, type: 3}

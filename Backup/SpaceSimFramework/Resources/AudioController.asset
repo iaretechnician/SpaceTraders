@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dadc093e502b8e4eb3e88329c9f37c2, type: 3}
+  m_Name: AudioController
+  m_EditorClassIdentifier: 
+  ScrollSound: {fileID: 8300000, guid: 43841ea0d6615b449b4d44df3022be0a, type: 3}
+  SelectSound: {fileID: 8300000, guid: aef4cba2f916b4e4880ae10736184b7b, type: 3}
+  GunSound: {fileID: 8300000, guid: 84b20a52ceaf27347981340d169e19f6, type: 3}
+  EngineSound: {fileID: 8300000, guid: d0a632de9f1c48c4e9b4c2ad9c3d6e91, type: 3}
+  SmallImpact: {fileID: 8300000, guid: e99b3b7244b2b494da70a26c1d9aa925, type: 3}
+  HardImpact: {fileID: 8300000, guid: 8fce021e9fbb43240a37c2b6f1676ec0, type: 3}

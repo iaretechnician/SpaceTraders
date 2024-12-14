@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59b89480fd92e28408f2b85387263f46, type: 3}
+  m_Name: GunboatAdvanced
+  m_EditorClassIdentifier: 
+  ShipModel: BigShip
+  ShipGuns: []
+  ShipTurrets:
+  - {fileID: 11400000, guid: f7ff34941d67a13499f01e35fdc558e7, type: 2}
+  - {fileID: 11400000, guid: f7ff34941d67a13499f01e35fdc558e7, type: 2}
+  - {fileID: 11400000, guid: f7ff34941d67a13499f01e35fdc558e7, type: 2}
+  - {fileID: 11400000, guid: f7ff34941d67a13499f01e35fdc558e7, type: 2}
+  ShipEquipment:
+  - {fileID: 11400000, guid: 869dbe9d23a7b094285c95a75338560c, type: 2}
+  - {fileID: 11400000, guid: 44afcb062fefc3c4299a5487aa9d7a0d, type: 2}

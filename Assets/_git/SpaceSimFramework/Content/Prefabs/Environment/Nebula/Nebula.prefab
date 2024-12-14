@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5099892991003674560
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5103184908809480440}
+  - component: {fileID: 5141528285786728598}
+  - component: {fileID: 5140727271534844070}
+  - component: {fileID: 5141631399669621220}
+  - component: {fileID: 5140127096438004186}
+  m_Layer: 8
+  m_Name: Nebula
+  m_TagString: Nebula
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5103184908809480440
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5099892991003674560}
+  m_LocalRotation: {x: 0, y: 0.93537927, z: 0, w: 0.35364625}
+  m_LocalPosition: {x: 0, y: 0, z: 30000}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 138.57901, z: 0}
+--- !u!114 &5141528285786728598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5099892991003674560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d208c8d72cb15884b85b6b61c1ab4c99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 
+  Clouds: {fileID: 5140727271534844070}
+  Particles: {fileID: 5141631399669621220}
+  AmbientLight: {r: 1, g: 1, b: 1, a: 1}
+  NebulaColor: {r: 1, g: 1, b: 1, a: 1}
+  MaxViewDistance: 2000
+  FogStart: 0
+  FogEnd: 2000
+  IsSensorObscuring: 0
+  CorrosionDamagePerSecond: 0
+  Resource: 
+  YieldPerSecond: 0
+--- !u!114 &5140727271534844070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5099892991003674560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f13a50c9d44e494e9ed7bb27fcdd1c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Particle: {fileID: 1485801814150970190, guid: 42be6ad13dbf5bb4abe9c71085211b2d,
+    type: 3}
+  EmitPuffs: 0
+  PuffColor: {r: 0.4669811, g: 0.74707735, b: 1, a: 0.49019608}
+  Count: 50
+  Radius: 150
+  SizeVariation: 0.2
+  MaxDistance: 400
+  Drift: 1
+  DriftRotation: 5
+  NearFadeDistance: 130
+  FarFadeDistance: 200
+--- !u!114 &5141631399669621220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5099892991003674560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f13a50c9d44e494e9ed7bb27fcdd1c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Particle: {fileID: 11424520, guid: 9d453c864fd0fee41bc2610d20330855, type: 3}
+  EmitPuffs: 0
+  PuffColor: {r: 1, g: 0.9088449, b: 0.495283, a: 0.53333336}
+  Count: 40
+  Radius: 0.5
+  SizeVariation: 0.2
+  MaxDistance: 50
+  Drift: 1
+  DriftRotation: 0
+  NearFadeDistance: 1
+  FarFadeDistance: 5
+--- !u!114 &5140127096438004186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5099892991003674560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8e84e579e9d2c743984292f72c468de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Flash: 0
+  FlashDuration: 0.3
+  AvgTimeBetweenFlashes: 3
+  MaxFlashesAtOnce: 3
+  IsFlashActive: 0

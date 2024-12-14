@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1405247302a25234aa129b76a090276a, type: 3}
+  m_Name: Regenerative Stasis Field
+  m_EditorClassIdentifier: 
+  Description: Single use item which will regenerate 15% of the ship's hull integrity
+    by creating a stasis field to supplement the armor.
+  isActivateable: 1
+  isSingleUse: 1
+  ItemCost: 3500
+  Duration: 15
+  RegenPercentage: 15

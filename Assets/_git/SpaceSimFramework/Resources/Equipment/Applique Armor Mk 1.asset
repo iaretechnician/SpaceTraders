@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f6f3430f6424504c96b0ba1cea8bf1a, type: 3}
+  m_Name: Applique Armor Mk 1
+  m_EditorClassIdentifier: 
+  Description: Additional armor plating on the hull which provides additional survivability.
+    Multiplies the base armor value by 1.1x.
+  isActivateable: 0
+  isSingleUse: 0
+  ArmorMultiplier: 1.1
+  ItemCost: 1200
